@@ -9,7 +9,7 @@
 *이는 동일한 기계에서 실행되는 다른 도구들(예를 들어, aishub dispatcher)이 입력으로 이를 읽을 수 있도록 localhost를 포함할 수 있음
 
 ## 실행 예시
-- `python ais_dispatcher.py --serial-port /dev/serial0 --serial-rate 38400 --host 0.0.0.0 <port>`
+- `python dispatcher.py --serial-port /dev/serial0 --serial-rate 38400 --host 0.0.0.0 <port>`
 - pm2: `pm2 start ecosystem.config.js`
 
 ## Prerequisits
